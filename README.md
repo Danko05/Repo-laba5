@@ -1,1 +1,1 @@
-# Repo-laba5
+Створити клас Planet . Додати enum type: TERRESTRIAL, JOVIAN.  Створити клас Planetary,  котрий складається з певної кількості планет. Додайте функцію сортування за довжиною світлового дня. Визначте функції findDistanceBetween,  findAverageMass- знайти середню масу планет
