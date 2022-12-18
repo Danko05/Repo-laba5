@@ -1,9 +1,8 @@
 #include <iostream>
 #include "Planet.h"
 #include "Planetary.h"
+
 using namespace std;
-
-
 
 int main (){
     Planet planet1 ("Mercury",233049.65,10892.6,647.4,23.6,69820000.765,TERRESTRIAL);

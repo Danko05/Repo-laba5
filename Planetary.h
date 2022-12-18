@@ -1,11 +1,13 @@
 #include <string>
 #include <iostream>
 #include <vector>
+
 using namespace std;
+
 class Planetary {
     public:
-    vector<Planet> planets; 
-    void  addplanet(Planet planet1){
+        vector<Planet> planets; 
+        void  addplanet(Planet planet1){
         planets.push_back(planet1);
     }
 
@@ -38,9 +40,4 @@ for (int k = 0; k < sizeof(length_of_day_array) /sizeof(length_of_day_array[0]);
     cout<< planet_name[k] << " = " << length_of_day_array[k] << endl;
 }
 }
-
-
-
-
-
 };
